@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --clr-sand: 246 239 229;
+    }
+
+    @font-face {
+        font-family: 'MADEBonVoyage';
+        font-style: normal;
+        font-weight: lighter;
+        font-display: swap;
+        src: url(./fonts/MADEBonVoyageThin.otf) format('otf');
+    }
+}
